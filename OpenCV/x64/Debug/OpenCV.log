@@ -1,0 +1,14 @@
+﻿Build started 1/8/2017 11:19:41 PM.
+     1>Project "C:\Users\Hamza\Documents\Visual Studio 2013\Projects\OpenCV\OpenCV\OpenCV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Hamza\Documents\Visual Studio 2013\Projects\OpenCV\OpenCV\opencv" /I"C:\Users\Hamza\Documents\Visual Studio 2013\Projects\OpenCV\OpenCV\opencv2" /Zi /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(403): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hamza\Documents\Visual Studio 2013\Projects\OpenCV\x64\Debug\OpenCV.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Hamza\Documents\Visual Studio 2013\Projects\OpenCV\OpenCV\lib" opencv_world310.lib opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hamza\Documents\Visual Studio 2013\Projects\OpenCV\x64\Debug\OpenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hamza\Documents\Visual Studio 2013\Projects\OpenCV\x64\Debug\OpenCV.lib" /MACHINE:X64 x64\Debug\Source.obj
+         OpenCV.vcxproj -> C:\Users\Hamza\Documents\Visual Studio 2013\Projects\OpenCV\x64\Debug\OpenCV.exe
+     1>Done Building Project "C:\Users\Hamza\Documents\Visual Studio 2013\Projects\OpenCV\OpenCV\OpenCV.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.07
